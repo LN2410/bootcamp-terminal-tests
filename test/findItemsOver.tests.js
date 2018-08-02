@@ -20,6 +20,6 @@ describe('the findItemsOver function',function(){
           {name : 'bananas', qty : 27},
           {name : 'apples', qty : 3},
       ];
-      assert.notEqual(findItemsOver20(itemList, threshold),4);
+      assert.notEqual(findItemsOver(itemList, threshold),4);
       });
 });

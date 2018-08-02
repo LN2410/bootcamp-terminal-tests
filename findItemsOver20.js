@@ -1,4 +1,4 @@
-modules.exports = function(list){
+module.exports = function(list){
 var store =[];
 for(var i =0;i<list.length;i++){
   var num = list[i].qty;
