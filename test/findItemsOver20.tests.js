@@ -1,5 +1,5 @@
 var assert = require("assert");
-var findItemsOver20 = ('../findItemsOver20')
+var findItemsOver20 = require('../findItemsOver20')
 
 describe('the findItemsOver20 function',function(){
   it('Should return all the products that have a quantity higher than 20', function(){

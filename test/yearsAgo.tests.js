@@ -1,5 +1,5 @@
 var assert = require("assert");
-var yearsAgo = ('../yearsAgo')
+var yearsAgo = require('../yearsAgo')
 
 describe('the yearsAgo function', function(){
 

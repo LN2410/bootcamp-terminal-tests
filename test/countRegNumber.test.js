@@ -1,5 +1,5 @@
 var assert = require("assert");
-var countRegNumber = ('../countRegNumber');
+var countRegNumber = require('../countRegNumber');
 
 describe('The countRegNumber function', function(){
   it('should return the number of registration numbers in the string', function(){

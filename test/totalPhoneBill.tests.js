@@ -1,5 +1,5 @@
 var assert = require("assert");
-var totalPhoneBill = ('../totalPhoneBill')
+var totalPhoneBill = require('../totalPhoneBill')
 
 describe('the totalPhoneBill function - R2.75 per call & R0.65 per sms.', function(){
 

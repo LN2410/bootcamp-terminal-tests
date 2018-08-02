@@ -1,5 +1,5 @@
 var assert = require("assert");
-var mostProfitableDepartment = ('../mostProfitableDepartment')
+var mostProfitableDepartment = require('../mostProfitableDepartment')
 
 describe('the mostProfitableDepartment function',function(){
   it('should return the mostProfitableDepartments according to sales made', function(){
